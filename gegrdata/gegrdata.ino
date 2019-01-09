@@ -1,5 +1,7 @@
 int enable = 10;
 
+int positive = 15;
+
 
 void setup() {
   
@@ -70,7 +72,9 @@ void loop() {
   int c3 = digitalRead(38);
   
  
-  // Serial.println(String(d1)+String(c1)+String(b1)+String(a1)+String(f1)+String(e1)+String(g1));
+//   Serial.println(String(a1)+String(b1)+String(c1)+String(d1)+String(e1)+String(f1)+String(g1));
+//  Serial.println(String(a2)+String(b2)+String(c2)+String(d2)+String(e2)+String(f2)+String(g2));
+  // Serial.println(String(a3)+String(b3)+String(c3)+String(d3)+String(e3)+String(f3)+String(g3));
   
 
  
@@ -83,7 +87,7 @@ void loop() {
   // Serial.println(String(digitalValue1) + String(digitalValue2));
   // Serial1.println(String(digitalValue1) + String(digitalValue2));
   
-  // Serial.println(getPolarity(digitalRead(14), digitalRead(15)) + String(digitalValue2) + String(digitalValue3) + "." + String(digitalValue1));
+  Serial.println(getPolarity(digitalRead(14), digitalRead(15)) + String(digitalValue1) + String(digitalValue2) + "." + String(digitalValue3));
    Serial1.println(getPolarity(digitalRead(14), digitalRead(15)) + String(digitalValue1) + String(digitalValue2)+ "." +String(digitalValue3));
   
  
